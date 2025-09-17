@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zitaashi - Thank You for Contacting Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .logo {
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #000000;
+        }
+
+        blockquote {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-left: 4px solid #2E86C1;
+            margin: 15px 0;
+            font-style: italic;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        .signature {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://zitaashi.com/assets/images/zitaashi%20png%20(1).png" alt="Zitaashi Logo" class="logo">
+
+        <h2>Hi {{ name }},</h2>
+        <p>Thank you for contacting Zitaashi. We have received your message:</p>
+        <blockquote>{{ message }}</blockquote>
+        <p>Our support team will review your request and get back to you as soon as possible.</p>
+        <p class="signature">
+            Best Regards,<br>
+            Zitaashi Support Team
+        </p>
+    </div>
+</body>
+
+</html>

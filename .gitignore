@@ -1,0 +1,6 @@
+.venv/
+db.sqlite3
+zitaashi/settings_local.py
+public
+.idea/
+.DS_Store
